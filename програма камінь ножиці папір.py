@@ -9,7 +9,7 @@ app.iconphoto(True, icon)
 app.title('Камінь ножиці папір')
 app.geometry('900x622+640+133')
 app['bg']='#696969'
-app.resizable(False,False)
+# app.resizable(False,False)
 
 def computer_choice():
     a=random.randint(1, 3)
