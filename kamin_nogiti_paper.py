@@ -77,6 +77,6 @@ wibir=Label(text='вибір компюнтера',width=30,height=4)
 wibir.place(x=290,y=5)
 resultat=Label(text='результат',width=20,height=4)
 resultat.place(x=340,y=300)
-
+wins_label=Label(text='перемог',width=20,height=4)
 
 app.mainloop()
