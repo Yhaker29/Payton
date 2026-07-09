@@ -11,6 +11,7 @@ app.geometry('900x622+640+133')
 app['bg']='#696969'
 app.resizable(False,False)
 
+wins=0
 def computer_choice():
     a=random.randint(1, 3)
     if a == 1:
